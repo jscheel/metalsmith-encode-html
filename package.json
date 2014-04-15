@@ -1,0 +1,25 @@
+{
+  "name": "metalsmith-encode-html",
+  "description": "A Metalsmith plugin to encode html entities in html files.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jscheel/metalsmith-encode-html.git"
+  },
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "dependencies": {
+    "ent": "^2.0.0",
+    "debug": "^0.7.4"
+  },
+  "devDependencies": {
+    "mocha": "1.x",
+    "metalsmith": "0.x",
+    "assert-dir-equal": "0.x"
+  },
+  "readmeFilename": "Readme.md",
+  "bugs": {
+    "url": "https://github.com/jscheel/metalsmith-encode-html/issues"
+  },
+  "homepage": "https://github.com/jscheel/metalsmith-encode-html"
+}
